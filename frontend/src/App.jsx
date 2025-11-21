@@ -5,6 +5,7 @@ import CreateReport from "./pages/CreateReport";
 import Explorer from "./pages/Explorer";
 import Verify from "./pages/Verify";
 import Search from "./pages/Search";
+import Timeline from "./pages/Timeline";
 
 export default function App(){
   return (
@@ -18,6 +19,7 @@ export default function App(){
               <Link to="/explorer" className="text-sm text-indigo-600">Explorer</Link>
               <Link to="/verify" className="text-sm text-indigo-600">Verify</Link>
               <Link to="/search" className="text-sm text-indigo-600">Search</Link>
+              <Link to="/timeline" className="text-sm text-indigo-600">Timeline</Link>
             </div>
           </div>
         </nav>
@@ -28,6 +30,7 @@ export default function App(){
             <Route path="/explorer" element={<Explorer />} />
             <Route path="/verify" element={<Verify />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/timeline" element={<Timeline />} />
           </Routes>
         </main>
       </div>
