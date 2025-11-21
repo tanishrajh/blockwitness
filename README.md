@@ -5,7 +5,6 @@ No ngrok, no phone setup — just localhost.
 
 ---
 
-````markdown
 # Localhost Installation & Running Instructions
 
 These steps run BlockWitness **fully on localhost**.
@@ -29,7 +28,7 @@ pip install reportlab qrcode[pil]   # for PDF + QR
 
 # Start backend
 python app.py
-````
+
 
 Backend will run at:
 
