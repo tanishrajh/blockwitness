@@ -64,7 +64,7 @@ http://localhost:5173
    * You may use this sample file if needed:
      `/mnt/data/8c099852-aacd-4177-bd7b-db36ae98c0d2.png`
 4. Submit
-5. Open **Explorer** → new block appears
+5. Open **Explorer** → new block appears.
 6. Test:
 
    * Merkle Path
